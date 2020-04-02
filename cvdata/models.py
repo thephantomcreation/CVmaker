@@ -13,6 +13,5 @@ class CVData(models.Model):
     edu_qualification = models.CharField(max_length=500)
     skills = models.CharField(max_length=100)
 
-    def __str__(self):
-        return self.name
+
     
